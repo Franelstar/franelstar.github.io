@@ -41,3 +41,33 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+.author__name {
+    color: #4F83CC; // Change the color of the author's name
+    font-weight: bold; // Make the author's name bold
+}
+
+.masthead__menu-item  a{
+    color: #4F83CC; // Change the color of the masthead menu items
+    font-weight: bold; // Make the author's name bolds
+}
+
+// selected
+.masthead__menu-item--selected a {
+    color: red; // Change the color of the selected masthead menu item
+}
+
+.page__content {
+  //justify
+  text-align: justify; // Justify the text in the page content
+}
+
+.styled-list {
+  // réduce interligne
+  line-height: 1.1; // Reduce the line height for the styled list
+}
+
+.styled-list li {
+  text-align: left;
+  padding: 5px 10px;
+}

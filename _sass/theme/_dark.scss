@@ -51,4 +51,7 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    --global-skill-background-color     : #f3efef;
+    --global-skill-color                : #2c2b2b;
+    --global-content_exp-color          : #ececec;
 }

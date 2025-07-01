@@ -399,3 +399,20 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+.content_exp {
+  margin-left: 25px; 
+  font-size: 0.8em; 
+  color: var(--global-content_exp-color);
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.skill {
+  background-color: var(--global-skill-background-color);
+  padding: .2em;
+  color: var(--global-skill-color);
+  display: inline-block;
+  border-radius: .5em;
+  margin-bottom: 1em;
+}
