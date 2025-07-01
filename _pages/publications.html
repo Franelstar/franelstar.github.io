@@ -5,32 +5,48 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<section>
+  <h3>Articles Published in International Journals</h3>
+  <ol>
+    <li>
+      <strong>Franck Anaël Mbiaya</strong>, Christel Vrain, Frédéric Ros, Thi-Bich-Hanh Dao, and Yves Lucas. 
+      <em>Dataset for image classification with knowledge.</em> 
+      <span>Data in Brief, vol. 57, p. 110893, 2024.</span>
+    </li>
+    <li>
+      <strong>Franck Anaël Mbiaya</strong>, Christel Vrain, Frédéric Ros, Thi-Bich-Hanh Dao, and Yves Lucas. 
+      <em>Knowledge graph-based image classification.</em> 
+      <span>Data &amp; Knowledge Engineering, vol. 151, p. 102285, 2024.</span>
+    </li>
+    <li>
+      HJ Azemena, <strong>FAK Mbiaya</strong>, SK Kasereka, HT Vinh. 
+      <em>CoSiT: An agent-based tool for training and awareness to fight the Covid-19 spread.</em> 
+      <span>International Journal of Advanced Computer Science and Applications, vol. 13, no. 10.</span>
+    </li>
+  </ol>
+</section>
 
-{% include base_path %}
+<section>
+  <h3>Articles Submitted to International Journals</h3>
+  <ol>
+    <li>
+      <strong>Franck Anaël Mbiaya</strong>, Christel Vrain, Frédéric Ros, Thi-Bich-Hanh Dao, and Yves Lucas. 
+      <em>Concept-Based Reasoning Model.</em> 
+      <span>Knowledge-Based Systems, <em>1st revision</em>.</span>
+    </li>
+  </ol>
+</section>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<section>
+  <h3>Articles Published in National Conferences</h3>
+  <ol>
+    <li>
+      <strong>Franck Anaël Mbiaya</strong>, Christel Vrain, Frédéric Ros, Thi-Bich-Hanh Dao, and Yves Lucas. 
+      <em>KGIC: Knowledge Graph Integration for Image Classification.</em> 
+      <span>Journal of New Information Technologies, Extraction and Knowledge Management (RNTI-E), vol. 39, pp. 259–272, 2023.</span>
+    </li>
+  </ol>
+</section>
 
 
 
